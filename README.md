@@ -4,6 +4,7 @@ Create a scrapy project from CLI: scrapy startproject [your project name]
 Place the vc_Spider1.py into './spiders/'  
 Replace pipelines.py and settings.py with the respective files provided here    
   
+  
 <b>Following commands have to be run in order:</b>
 <ul>
 <li>scrapy crawl campaign_crawl -o campaigns.json </li> 
