@@ -12,7 +12,7 @@ class ProductsPipeline(object):
 
     def __init__(self):
         cnxn_str = 'DRIVER={ODBC Driver 11 for SQL Server};SERVER=PEPWUL138150\MSSQLSERVER12;' \
-                   'DATABASE=Test;Trusted_Connection=yes;'
+                   'DATABASE=ECMSB;UID=Ehiggins;PWD=Welcome@1;'
         self.cnxn = pyodbc.connect(cnxn_str)
 
     def process_item(self, item, spider):
